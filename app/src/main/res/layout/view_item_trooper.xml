@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_centerVertical="true"
+        android:text="Trooper"
+        android:id="@+id/textView_item_trooper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/imageView_item_trooper"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        android:src="@drawable/galactic_empire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/separador_item_trooper"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_separator_trooper_item" />
+
+
+
+</RelativeLayout>
